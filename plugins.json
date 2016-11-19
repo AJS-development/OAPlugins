@@ -1,12 +1,12 @@
 [
   {
-    "name": "Notify On Join",
+    "name": "NotifyOnJoin",
     "description": "Notifies you when a player joins",
     "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/NotifyOnJoin.ajs"
   },
   
   {
-    "name": "Essential Commands",
+    "name": "EssentialCommands",
     "description": "Adds essential commands to the game",
     "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/EssentialCommands.ajs" 
   }
