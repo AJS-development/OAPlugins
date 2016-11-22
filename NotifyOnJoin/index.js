@@ -9,10 +9,10 @@ this.version = '1.0.0'; // version REQUIRED
 this.init = function (data) {
   // init, Used to do stuff such as overriding things
 };
-this.beforeSpawn = function(data) {
+this.onClientAdd = function(data) {
     var player = data.player
-    if (player.didnot || player.isBot) return
-    player.didnot = true
+    if (player.isBot) return
+
     data.log("A player with an ip of " + player.socket.remoteAddress + " joined")
     return true;
 }
