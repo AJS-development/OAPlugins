@@ -3,7 +3,7 @@ module.exports = {
 name: "Shed", // Name of plugin REQUIRED
 author: "LegitSoulja", // author REQUIRED
 description: '', // Desciprtion
-minVersion: '', // minimum version requirements (optional)
+minVersion: '2.9.5', // minimum version requirements (optional)
 version:  '1.0.0', // version REQUIRED
 addToHelp: false, // add to help
  commands: false, // commands
