@@ -9,10 +9,12 @@
     "name": "EssentialCommands",
     "description": "Adds essential commands to the game",
     "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/EssentialCommands.ajs" 
+  },
+  {
+  "name":"Shed",
+  "description": "The shed plugin in OpenAgar!",
+    "src":  "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Shed.ajs" 
+  
   }
-  
-  
-  
-  
   
   ]
