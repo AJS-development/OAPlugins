@@ -20,7 +20,7 @@ init: function (data,configs) {
     player.msg("Press 'Space' to shed", "[Shed]");
     return true;
  },
-  onPressW: function(data) {
+  onPressSpace: function(data) {
    data.player.gameData.color = {
         r: ~~(Math.random() * 255 + 0), // no decimal places
         g: ~~(Math.random() * 255 + 0), // no decimal places
