@@ -5,7 +5,7 @@ author: "Andrews54757", // author REQUIRED
 description: 'Adds minions to the game', // Desciprtion
 minVersion: '3.0.5', // minimum version requirements (optional)
 version:  '1.0.0', // version REQUIRED
-addToHelp: ["| Minion                   | Minion command          |"], // add to help
+addToHelp: ["| Minion                   | Minion command           |"], // add to help
  commands: {
      minion: function(str,main,log) {
          str = str.split(" ")
