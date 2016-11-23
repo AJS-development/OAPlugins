@@ -15,6 +15,11 @@
   "description": "The shed plugin in OpenAgar!",
     "src":  "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Shed.ajs" 
   
+  },
+  {
+   "name":"Minions",
+    "description":"Adds minions to the game",
+    "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Minions.ajs"
   }
   
   ]
