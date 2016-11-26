@@ -20,6 +20,12 @@
    "name":"Minions",
     "description":"Adds minions to the game",
     "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Minions.ajs"
+  },
+  {
+   "name":"Onan",
+    "description": "Config editor",
+    "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/OnanConfigEditor.ajs"
+    
   }
   
   ]
