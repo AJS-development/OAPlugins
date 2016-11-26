@@ -16,7 +16,8 @@ module.exports = function(str,main,log,dir) {
 var Cli = new cli()
 if (!Cli.versCode || Cli.versCode < 258) {
     main.interface = true
-    return log("Please update your npm modules. Do npm install")
+    log("Please update your npm modules. Do npm install")
+    return;
 }
     Cli.editor(file,function() {
     
