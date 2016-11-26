@@ -26,6 +26,12 @@
     "description": "Config editor",
     "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/OnanConfigEditor.ajs"
     
+  },
+  {
+   "name":"Eliza",
+    "description": "Eliza chatbot",
+    "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Eliza.ajs"
+    
   }
   
   ]
