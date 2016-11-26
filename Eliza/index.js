@@ -33,7 +33,7 @@ init: function (data,configs) {
   var msg = data.msg
   var main = data.main
   var log = data.log
-  if (player._eliza == true) {
+  if (player._eliza) {
       player._bot = false;
       return true;
   }
