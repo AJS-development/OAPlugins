@@ -1,12 +1,12 @@
 
 
-module.exports = function(str,main,log) {
+module.exports = function(str,main,log,dir) {
     
     str = str.split(" ")
     
     var file = str[1]
     if (!file) return log("Please specify a settings file")
-    file = Util.dirEscape(__dirname + "/../../settings",file,'ini')
+    file = Util.dirEscape(dir + "/../settings",file,'ini')
     if (!file) return log("That is not a config file!")
     log("Loading editor for file " + file)
     log("Press Esc to save or exit")
