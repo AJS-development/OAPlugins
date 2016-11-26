@@ -1,9 +1,9 @@
 module.exports = function(str,main,player,log) {
-if (!player.eliza) {
-    player.eliza = true;
+if (!player._eliza) {
+    player._eliza = true;
     return log("Eliza has been turned off for you")
 } else {
-     player.eliza = false;
+     player._eliza = false;
     return log("Eliza has been turned on again")
 }
     
