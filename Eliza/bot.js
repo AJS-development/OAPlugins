@@ -1,3 +1,4 @@
+/*
 exports.reply = function (r) {
 	if (this.bot == null) {
 		this.bot = new ElizaBot(false);
@@ -18,8 +19,8 @@ exports.bye = function () {
 	}
 	return this.bot.getFinal();
 }
-
-function ElizaBot(noRandomFlag) {
+*/
+var ElizaBot = function(noRandomFlag) {
 
 	this.elizaInitials = [
 		"How do you do.  Please tell me your problem.",
@@ -1007,5 +1008,5 @@ if (typeof Array.prototype.shift == 'undefined') {
 		return e0;
 	};
 }
-
+module.exports = ElizaBot
 // eof
