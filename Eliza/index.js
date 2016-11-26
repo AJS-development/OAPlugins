@@ -5,7 +5,7 @@ name: "Eliza", // Name of plugin REQUIRED
 author: "Andrews54757", // author REQUIRED
 description: 'The E.L.I.Z.A chat bot', // Desciprtion
 minVersion: '', // minimum version requirements (optional)
-version:  '', // version REQUIRED
+version:  '1.0.0', // version REQUIRED
 addToHelp: false, // add to help
  commands: false, // commands
  configFile: false, //config file
