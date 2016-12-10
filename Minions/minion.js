@@ -19,10 +19,10 @@ module.exports = function(str,main,log) {
         
          if (isNaN(amount) && player.minions.length != 0) {
            
-        for (var i = 0; i < player.minions.length; i ++) {
-                 main.removeMinion(player.minions[i])
-                 i--;
-             }
+       player.minions.forEach(function(minion) {
+                 main.removeMinion(minion)
+       });    
+             
              return log("Removed minions for " + player.gameData.name) 
          } else {
             if (isNaN(amount)) amount = 1;
