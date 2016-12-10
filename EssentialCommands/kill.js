@@ -6,10 +6,10 @@ if (isNaN(id)) {
 }
     var player = main.getPlayer(id)
     if (!player) return log("No player with that id was found")
-   for (var i = 0; i < player.cells.length; i ++) {
-   main.removeNode(player.cells[i])
-   i --;
-   }
+   players.cells.forEach(function(cell) {
+   main.removeNode(cell)
+
+   })
     log("Killed " + player.gameData.name )
 
 }
