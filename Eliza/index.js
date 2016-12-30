@@ -67,7 +67,7 @@ init: function (data,configs) {
   return true;
  }
 }
-ns]
+
 init: function (data,configs) {
   // init, Used to do stuff such as overriding things
 }
