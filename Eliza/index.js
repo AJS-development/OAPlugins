@@ -70,14 +70,5 @@ init: function (data,configs) {
 ns]
 init: function (data,configs) {
   // init, Used to do stuff such as overriding things
-},
- beforeChat: function(data) {
-  var player = data.player
-  var msg = data.msg
-  var main = data.main
-  var log = data.log
-  
-  
-  return true;
- }
+}
 }
