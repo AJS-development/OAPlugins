@@ -6,7 +6,7 @@ if (isNaN(id)) {
 }
     var player = main.getPlayer(id)
     if (!player) return log("No player with that id was found")
-   players.cells.forEach(function(cell) {
+   player.cells.forEach(function(cell) {
    main.removeNode(cell)
 
    })
