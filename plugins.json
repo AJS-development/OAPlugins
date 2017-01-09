@@ -17,6 +17,11 @@
   
   },
   {
+    "name": "IPBots",
+    "description":"Give minions to specific ips",
+    "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/IPBots.ajs"
+  },
+  {
    "name":"Minions",
     "description":"Adds minions to the game",
     "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Minions.ajs"
