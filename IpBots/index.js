@@ -57,7 +57,8 @@ module.exports = {
                 used: 0,
                 players: new Map(),
                 id: id++,
-                paused: false
+                paused: false,
+                message: config.message
             }
             data.main.IPbots.id = id;
         }
@@ -79,7 +80,8 @@ module.exports = {
                 expiration: all.expiration,
                 used: 0,
                 players: new Map(),
-                paused: false
+                paused: false,
+                message: all.message
             }
 
         }
@@ -89,7 +91,7 @@ module.exports = {
         ipdata.players.set(player.id, player);
         if (!ipdata.paused) main.addMinions(player, ipdata.numBots);
         var exp = (ipdata.expiration) ? "expire in " + Math.floor((ipdata.expiration - ipdata.used) / 60) + " minutes!" : "never expire!"
-        player.msg("You have been given " + ipdata.numBots + " minions! They will " + exp + " Type /ipbots to see your remaining time. type /ipbots toggle, to stop/start using bots!");
+       if (ipdata.message) player.msg(ipdata.message); else player.msg("You have been given " + ipdata.numBots + " minions! They will " + exp + " Type /ipbots to see your remaining time. type /ipbots toggle, to stop/start using bots!");
         if (ipdata.paused) player.msg("Your ipbots have been paused! Do /ipbots toggle to turn them back on!")
 
     },
