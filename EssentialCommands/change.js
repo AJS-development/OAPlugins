@@ -1,6 +1,6 @@
 module.exports = function(str,main,log) {
 	str = str.split(" ");
-	if(str.length != 3){log("change [name] [value]")}
+	if(str.length != 3){log("change [name] [value]"); return;}
 	if(str[1] && main.dataService.config[str[1]]){
 		if(!isNaN(str[2])){
 			main.dataService.config[str[1]] = str[3];
