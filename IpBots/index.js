@@ -3,7 +3,7 @@ module.exports = {
     name: "IPBots", // Name of plugin REQUIRED
     author: "Andrews54757", // author REQUIRED
     description: 'Gives bots to a ip', // Desciprtion
-    minVersion: '', // minimum version requirements (optional)
+    minVersion: '4.0.5', // minimum version requirements (optional)
     version: '1.0.0', // version REQUIRED
     addToHelp: false, // add to help
     commands: false, // commands
