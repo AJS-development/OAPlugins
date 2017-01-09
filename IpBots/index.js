@@ -1,5 +1,3 @@
-var ips = [];
-
 module.exports = {
 // [General]
 name: "IPBots", // Name of plugin REQUIRED
@@ -18,6 +16,11 @@ init: function (data,configs) {
   online: new Map().
   ipdata: {};
  }
+ 
+},
+beforePlayerInit(data) {
+ var player = data.player;
+var ip = player.socket.remoteAddress;
  
 }
 }
