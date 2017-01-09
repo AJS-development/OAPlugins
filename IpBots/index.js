@@ -16,11 +16,20 @@ init: function (data,configs) {
   online: new Map().
   ipdata: {};
  }
+ for (var i in configs) {
+ var config = configs[i];
+ if (!config.numBots) continue;
+ data.main.IPbots.ipdata[i] = {
+ numBots: config.numBots,
+ expiration: config.expiration
+ used: 0
+}
+}
  
 },
 beforePlayerInit(data) {
  var player = data.player;
 var ip = player.socket.remoteAddress;
- 
+ if (
 }
 }
