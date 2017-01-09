@@ -21,7 +21,7 @@ init: function (data,configs) {
  if (!config.numBots) continue;
  data.main.IPbots.ipdata[i] = {
  numBots: config.numBots,
- expiration: config.expiration
+ expiration: config.expiration,
  used: 0
 }
 }
