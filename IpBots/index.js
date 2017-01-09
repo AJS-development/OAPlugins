@@ -1,4 +1,5 @@
 var ips = [];
+
 module.exports = {
 // [General]
 name: "IPBots", // Name of plugin REQUIRED
@@ -12,7 +13,11 @@ addToHelp: false, // add to help
 // [Functions]
 init: function (data,configs) {
   // init, Used to do stuff such as overriding things
- 
+ data.main.IPbots = {
+  config: configs,
+  online: new Map().
+  ipdata: {};
+ }
  
 }
 }
