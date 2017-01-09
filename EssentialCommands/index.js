@@ -13,13 +13,15 @@ commands: {
     chatlog: require('./chatlog.js'),
     pm: require('./pm.js'),
     prune: require('./prune.js'),
-    kill: require('./kill.js')
+    kill: require('./kill.js'),
+	change: require('./change.js')
 },
     
   addToHelp: ["| Mass                     | Set the mass of a player |",
               "| Name                     | Change the name of player|",
               "| Broadcast                | Broadcast to the chat!   |",
               "| Chatlog                  | chat info                |",
+              "| Change                   | Change config value      |",
               "| Pm                       | Send a msg to a player   |",
               "| Prune                    | Prune a player's msg     |",
               "| Kill                     | Kills a player           |"],
