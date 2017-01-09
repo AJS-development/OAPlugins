@@ -34,6 +34,8 @@ What this does, is the following:
 2. Same with anyone with localhost as their ip
 3. the third block is applied to everyone because of it's [all] header. Also, instead of the default message, a custom message will be sent to the client.
 
+
+Also note that not setting expiration will mean it will never expire for the ip
 ## Terms
 
 1. You may not sell this program
