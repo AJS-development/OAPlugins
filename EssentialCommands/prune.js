@@ -8,9 +8,9 @@ module.exports = function(str,main,log) {
 for (var i = 0; i < main.chat.length; i ++) {
     var ch = main.chat[i]
     if (ch.name != chatname) continue;
-    for (var j in main.clients) {
-        main.clients[j].socket.emit('chat',{remove:ch.id})
-    }
+    main.clients.forEach(function (client) {
+       client.socket.emit('chat',{remove:ch.id})
+    })
     
         main.chat.splice(i,1)
         i --;
