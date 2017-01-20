@@ -14,7 +14,13 @@ commands: {
     pm: require('./pm.js'),
     prune: require('./prune.js'),
     kill: require('./kill.js'),
-	change: require('./change.js')
+	change: require('./change.js'),
+	merge: require('./merge.js'),
+	chat: require('./chat.js'),
+	freeze: require('./freeze.js'),
+	unfreeze: require('./unfreeze.js'),
+	config: require('./config.js'),
+	clear: require('./clear.js'),
 },
     
   addToHelp: ["| Mass                     | Set the mass of a player |",
@@ -27,7 +33,6 @@ commands: {
               "| Kill                     | Kills a player           |"],
 // [Functions]
 init: function (data,config) {
-
   // init, Used to do stuff such as overriding things
 }
 }
