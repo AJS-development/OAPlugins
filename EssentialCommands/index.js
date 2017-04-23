@@ -35,8 +35,6 @@ commands: {
 			  "| Freeze                   | Freeze Player            |",
 			  "| Unfreeze                 | Un-Freeze player         |",
 			  "| Config                   | Shows editable configs   |",
-			  "| Kill                     | Kills a player           |",
-			  "| Change                   | Change config value      |",
 			  ],
 // [Functions]
 init: function (data,config) {
