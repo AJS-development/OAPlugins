@@ -21,7 +21,7 @@ var walk = function(base,dir, done) {
             next();
           });
         } else {
-          if (file.indexOf('.mp3') == -1 && file.indexOf('/plugins/') == -1 && file.indexOf('.txt') == -1 && file.indexOf('.ini') == -1 && file.indexOf('filesTemp.json') == -1 && file.indexOf('devFiles.json') == -1 && file.indexOf('.log') == -1 && file.indexOf('.git') == -1 && file.indexOf('.DS_Store') == -1 && file.indexOf('node_modules') == -1 && file.indexOf('backup') == -1) {
+          if (file.indexOf('.mp3') == -1 && file.indexOf('/plugins/') == -1 && file.indexOf('.txt') == -1 && file.indexOf('.ini') == -1 && file.indexOf('filesTemp.json') == -1 && file.indexOf('devFiles.json') == -1 && file.indexOf('.log') == -1 && file.indexOf('.git') == -1 && file.indexOf('.DS_Store') == -1 && file.indexOf('node_modules') == -1 && file.indexOf('UDTA') == -1 && files.indexOf('modules.json') == -1) {
           results.push(file);
             }
           next();
