@@ -7,7 +7,7 @@ minVersion: '5.0.0', // minimum version requirements (optional)
 version:  '1.0.0', // version REQUIRED
 addToHelp: false, // add to help
  commands: false, // commands
- configFile: 'config.ini, //config file
+ configFile: 'config.ini', //config file
 // [Functions]
 init: function(data,configs) {
   
