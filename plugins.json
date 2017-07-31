@@ -37,6 +37,11 @@
     "description": "Eliza chatbot",
     "src":"https://raw.githubusercontent.com/AJS-development/OAPlugins/master/Eliza.ajs"
     
+  },
+  {
+   "name":"AutoPause",
+    "description": "Pause the server when there is no players",
+    "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/AutoPause.ajs"
   }
   
   ]
