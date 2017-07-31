@@ -40,7 +40,7 @@
   },
   {
    "name":"AutoPause",
-    "description": "Pause the server when there is no players",
+    "description": "Pause the server when no ones there",
     "src": "https://raw.githubusercontent.com/AJS-development/OAPlugins/master/AutoPause.ajs"
   }
   
