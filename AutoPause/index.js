@@ -14,6 +14,11 @@ init: function(data,configs) {
   data.main.AutoPause = {
   config: configs
   }
+  if (data.main.clients.size === 0)  {
+     if (data.main.AutoPause.config.log == 1) data.log("gre{[AutoPause]} Unpaused server".styleMe());
+     data.main.pause(true); 
+   }
+ 
   // init, Used to do stuff such as overriding things
 },
   onClientAdd: function(data) {
@@ -23,7 +28,7 @@ if (data.main.paused) {
 }
   },
   onClientRemove: function(data) {
-   if (data.main.players.size === 0)  {
+   if (data.main.clients.size === 0)  {
      if (data.main.AutoPause.config.log == 1) data.log("gre{[AutoPause]} Unpaused server".styleMe());
      data.main.pause(true); 
    }
