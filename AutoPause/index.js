@@ -28,7 +28,7 @@ module.exports = {
         }
     },
     onClientRemove: function (data) {
-        if (data.main.clients.size === 0) {
+        if (data.main.clients.size === 1) {
             if (data.main.AutoPause.config.log == 1) data.log("gre{[AutoPause]} Paused server".styleMe());
             data.main.pause(true);
         }
